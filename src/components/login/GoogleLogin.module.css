@@ -1,0 +1,15 @@
+.sign_in {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 8rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");

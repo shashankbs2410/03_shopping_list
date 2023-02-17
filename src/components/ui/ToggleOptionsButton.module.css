@@ -1,0 +1,16 @@
+.show_options_button {
+  width: 100%;
+  background-color: white;
+  border: none;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  position: relative;
+  right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 12px;
+}
+
+.show_options_button:hover {
+  cursor: pointer;
+  color: #f7901d;
+}

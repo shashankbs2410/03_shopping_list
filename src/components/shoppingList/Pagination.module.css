@@ -1,0 +1,53 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.common_button {
+  border: none;
+  background-color: #e2e2e2;
+  margin: auto 5px;
+  font-size: large;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.common_button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.page_button {
+  border: none;
+  background-color: #e2e2e2;
+  margin: auto 5px;
+  font-size: large;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.page_button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.active_page {
+  border: none;
+  background-color: black;
+  margin: auto 5px;
+  font-size: large;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.active_page:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

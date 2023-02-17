@@ -1,0 +1,45 @@
+.input {
+  height: 24px;
+  width: 36px;
+  text-align: center;
+  margin: auto 1px;
+  border: none;
+  border-radius: 1px;
+  background-color: transparent;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:focus {
+  background-color: white;
+}
+
+.button {
+  height: 30px;
+  width: 30px;
+  margin: auto 2px;
+  border-radius: 3px;
+  background-color: #fbe09b;
+  border: none;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+
+.change_quantity {
+  position: relative;
+  top: -75px;
+  left: 0px;
+}
