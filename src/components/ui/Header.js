@@ -8,6 +8,9 @@ const Header = () => {
   const isSignedIn = useSelector((state) => state.ui.isSignedIn);
   const isShowProducts = useSelector((state) => state.ui.showProducts);
   const totalCartQuantity = useSelector((state) => state.cart.totalQuantity);
+  const itemsFetched = useSelector((state) => state.ui.itemsFetched);
+  const isPaying = useSelector((state) => state.ui.isPaying);
+  const isPayed = useSelector((state) => state.ui.isPayed);
   const dispatch = useDispatch();
 
   const toggleCartHandler = () => {
@@ -29,7 +32,7 @@ const Header = () => {
 
   return (
     <div className={classes.header}>
-      {isSignedIn && isShowProducts && (
+      {itemsFetched && isSignedIn && !isPaying && !isPayed && (
         <div>
           <button onClick={toggleCartHandler} className={classes.cart_button}>
             Cart [{totalCartQuantity}]
@@ -48,7 +51,7 @@ const Header = () => {
           Logout
         </button>
       )}
-      {isShowProducts && (
+      {isShowProducts && !isPaying && !isPayed && (
         <button className={classes.back_button} onClick={backHandler}>
           {"< Back"}
         </button>

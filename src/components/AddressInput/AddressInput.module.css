@@ -1,0 +1,96 @@
+.AddressInput {
+  background-color: black;
+  color: white;
+  margin-top: -75px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  padding: 5px;
+  width: 40%;
+  border-radius: 5px;
+  height: 600px;
+  position: fixed;
+  text-align: center;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flexbox;
+}
+
+.AddressInput label {
+  margin: 10px 10px 10px 50px;
+}
+
+.AddressInput input {
+  width: 60%;
+  border-radius: 5px;
+  height: 20px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 5px 50px 5px 10px;
+}
+
+.fields {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: large;
+  opacity: 0.3;
+}
+
+.proceed_button {
+  background-color: green;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  padding: 10px;
+  width: 40%;
+  font-weight: bold;
+}
+
+.proceed_button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.back_button {
+  position: absolute;
+  left: 5%;
+  top: 20px;
+  color: white;
+  background: none;
+  border: none;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  opacity: 0.5;
+  border-radius: 3px;
+}
+
+.back_button:hover {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+}
+
+.proceed_disabled {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  padding: 10px;
+  width: 40%;
+  font-weight: bold;
+  background-color: grey;
+}
+
+.proceed_disabled:hover {
+  cursor: not-allowed;
+}
